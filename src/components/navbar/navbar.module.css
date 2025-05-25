@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px;
+    position: sticky;
+}
+
+.link{
+    display: flex;
+    gap: 20px;
+  
+}
+
+.link a:hover{
+    color: aqua;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+
+    .container h1{
+        display: none;
+    }
+    .link{
+       font-size: 14px;
+       display: flex;
+       gap: 20px;
+       justify-content: space-between;
+    }
+    
+}

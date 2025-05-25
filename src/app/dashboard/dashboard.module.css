@@ -1,0 +1,36 @@
+.container{
+    transition: transform  0.5 ease-in;
+}
+.desc p{
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.desc span{
+    color: #7D7373;
+    font-weight: 100;
+}
+
+
+
+.info{
+
+    padding: 50px;
+}
+
+.title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.name{
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.text{
+    color: #7D7373;
+    font-size: 20px;
+}
