@@ -17,17 +17,14 @@ const details = () => {
           <span> UI/UX Web Designer</span>
 
           <div className={styles.icons}>
-            <Link href="https://www.facebook.com/share/1Bht3yLme1/?mibextid=qi2Omg">
+            <Link href="">
               <FaFacebook />
             </Link>
-            <Link href="https://x.com/omoibileponpon?t=h67wlCOeVsnAtqEDvvL6tQ&s=09">
+            <Link href="">
               <FaXTwitter />
             </Link>
-            <Link href="https://www.linkedin.com/in/yusuf-muhammed-06029b321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <Link href="">
               <FaLinkedin />
-            </Link>
-            <Link href="https://github.com/Mistymo21">
-              <FaGithub />
             </Link>
           </div>
         </div>
