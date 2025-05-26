@@ -1,59 +1,59 @@
-import React from 'react'
-import styles from './projects.module.css'
+import React from "react";
+import styles from "./projects.module.css";
 const Blog = () => {
   return (
     <div>
       <h1 className={styles.title}>Projects</h1>
       <div className={styles.container}>
         <div className={styles.card}>
-          <h2>An Online Clearance system for university</h2>
+          <h2>DASHIT Dashboard | Figma UI Concept</h2>
           <p>
-            A full-stack web app that streamlines the student clerance process. Feature include role-based login, document uploads, digital approvals, real-time status tracking and a  printable final clearance form. Built with Next.js 14, MongoDB, and Moudle CSS.  
+            Designed admin dashboard with focus on data visualization and user
+            workflow Implemented dark mode and responsive layouts
           </p>
-          <a href="https://e-clearance.vercel.app//" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.figma.com/proto/o8B3ZEGf0pw3qBCQA6m4zQ/DASHIT?node-id=101-2273&p=f&t=WhkjiHSbwbimQYA7-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=101%3A2273"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className={styles.button}>View Project</button>
-            </a>
+          </a>
         </div>
-        
+
         <div className={styles.card}>
-          <h2>Real Estate App</h2>
+          <h2>Spedi E-Commerce App</h2>
           <p>
-            Real Estate website built with React and css. This is a standard frontend application showcasing property listings and details.
+            Created mobile app UI with streamlined checkout process, Reduced user
+            steps by 30% through UX optimization
           </p>
-          <a href="https://rent-ups.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.figma.com/proto/NkO0PlWP1WuPtBc9N6MzPs/Spedi?node-id=3-373&p=f&t=WhkjiHSbwbimQYA7-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=3%3A373"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className={styles.button}>View Project</button>
-            </a>
+          </a>
         </div>
-        
+
         <div className={styles.card}>
-          <h2>
-            SmartBite - A Food Ordering App
-          </h2>
+          <h2> MAZHUB - E-Learning Web App(UI/UX)</h2>
           <p>
-            A resposive food ordering app UI designed for easy browsing. Built with a clean layouts and user-friendly navigation.
-            The app features a menu with various pizza categories, allowing users to explore and select their favorite dishes. 
-            
+           An intuitive and engaging e-learning platform designed to enhance digital learning experiences. Focused on clear navigation, accessible design, and interactive course structures to support diverse learning needs.
+
           </p>
-          <a href="https://smart-bite-one.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.figma.com/proto/BYZ3WkU0s6U4yiJXEURswn/MAZHUB?node-id=33-372&t=37HjIE5PubS4HJbE-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=33%3A372&show-proto-sidebar=1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className={styles.button}>View Project</button>
-            </a>
+          </a>
         </div>
-        
-        <div className={styles.card}>
-          <h2>Tour Guide App</h2>
-          <p>
-           A mobile-friendly Tour Guide App design that helps users explore cities with ease. Built on react and css
-          </p>
-          <a href="https://tour-guide-sage.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <button className={styles.button}>View Project</button>
-            </a>
-        </div>
-        
+
        
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Blog
-
+export default Blog;

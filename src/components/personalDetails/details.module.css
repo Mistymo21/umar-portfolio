@@ -48,3 +48,22 @@
 .btn:hover {
   background-color: #ff7f00;
 }
+
+@media (max-width: 639px) {
+  .personal {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+  
+}

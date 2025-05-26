@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "./details.module.css";
 import Image from "next/image";
-import Personal from "../../../public/personal.jpg";
+import bee from "../../../public/bee.jpeg";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 const details = () => {
@@ -10,11 +10,11 @@ const details = () => {
     <div>
       {" "}
       <div className={styles.personal}>
-        <h1>Yusuf Muhammed</h1>
-        <Image src={Personal} alt="" className={styles.img} />
+        <h1>Kolawale Umar Dhikrullah</h1>
+        <Image src={bee} alt="" className={styles.img} />
         <div className={styles.desc}>
           <p>Based in Nigeria</p>
-          <span> FullStack Website Developer</span>
+          <span> UI/UX Web Designer</span>
 
           <div className={styles.icons}>
             <Link href="https://www.facebook.com/share/1Bht3yLme1/?mibextid=qi2Omg">

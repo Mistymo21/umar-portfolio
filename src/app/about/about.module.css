@@ -1,5 +1,7 @@
 .container{
     padding: 50px;
+  width: 800px;
+
 }
 
 .title{
@@ -7,6 +9,7 @@
     font-weight: 100;
     font-family: Libre Franklin;
     margin-bottom: 20px;
+    
 }
 
 .info{
@@ -19,4 +22,26 @@
 .desc{
     color: #7D7373;
     font-weight: 100;
+}
+
+@media (max-width: 639px) {
+  .container{
+    width: 100%;
+    margin: 0;
+  }
+
+  .title{
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .info{
+    font-size: 25px;
+  }
+
+  .desc{
+    font-size: 15px;
+    width: auto;
+  }
+  
 }
